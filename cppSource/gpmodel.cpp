@@ -37,7 +37,7 @@ string rm_last_if_slash(string in_string) {
 class GP_Model{
 protected:
   const double PI = 3.1415926536,
-    epsilon = 1e-4,
+    epsilon = 1e-1,
     C1 = 0.001,
     C2 = 0.8;
   double gp_m, // mean magnitude of the star
